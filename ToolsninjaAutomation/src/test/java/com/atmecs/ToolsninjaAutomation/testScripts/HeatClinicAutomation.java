@@ -33,7 +33,7 @@ public class HeatClinicAutomation extends TestBase {
 
 //redirection validation
 	@Test(priority = 1, dataProvider = "headers", dataProviderClass = TestDataProvider.class)
-	public void validatefooterForServices(String header, String title) {
+	public void validateTitles(String header, String title) {
 		// log = Logger.getLogger(HomePagetestscripts.class);
 		// WebUtility.explicitWait(Locators.getLocators("loc.btn.services"));
 		home = new HeatClinicPage(driver);
